@@ -328,19 +328,6 @@ mapping: dict[str, TuyaBLECategorySwitchMapping] = {
             ],
         },
     ),
-    "cl": TuyaBLECategorySwitchMapping(
-        products={
-            "kcy0x4pi": [  # Curtain Robot
-                TuyaBLESwitchMapping(
-                    dp_id=1,
-                    description=SwitchEntityDescription(
-                        key="curtain_robot",
-                        entity_registry_enabled_default=True,
-                    ),
-                ),
-            ],
-        },
-    ),
 }
 
 
