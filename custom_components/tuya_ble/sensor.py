@@ -316,7 +316,7 @@ mapping: dict[str, TuyaBLECategorySensorMapping] = {
                     description=SensorEntityDescription(
                         key="Luminosity",
                         device_class=SensorDeviceClass.ILLUMINANCE,
-                        native_unit_of_measurement=UnitOfTemperature.PERCENTAGE,
+                        native_unit_of_measurement=PERCENTAGE,
                         state_class=SensorStateClass.MEASUREMENT,
                     ),
                 ),
